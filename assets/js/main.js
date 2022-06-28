@@ -1,7 +1,6 @@
 
 jQuery(function() {
     general_utils();
-    blog_posts();
 })
 
 
