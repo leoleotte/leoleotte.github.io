@@ -12,7 +12,7 @@ img {
 .head {
 
   color: #fff;
-  min-height: 60vh;
+  min-height: 72vh;
 
   display: -webkit-box;
 
@@ -505,7 +505,6 @@ a {
         grid-template-columns: auto auto;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    width: 80%;
   }
 
   #nav {
