@@ -11,13 +11,22 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/github.png',
+            link: 'https://github.com/NVIDIAGameWorks/rtx-remix',
+            title: 'Nvidia RTX-Remix',
+            demo: false,
+            technologies: ['C++'],
+            description: "Contributions to Nvidia DXVK Remix project's in-game texture categorization tool.",
+            categories: ['featured', 'oss']
+        },
+        {
             image: 'assets/images/auth-football.png',
             link: false,
             title: 'Auth Football',
             demo: false,
             technologies: ['Unity', 'Multiplayer'],
             description: "First person football/soccer game with custom ball physics, advanced controls and server-authorative multiplayer support (WIP).",
-            categories: ['featured', 'unity', 'games']
+            categories: ['unity', 'games']
         },
         {
             image: 'assets/images/pong64.jpg',
@@ -27,6 +36,15 @@ let render_projects = (slug) => {
             technologies: ['N64', 'C'],
             description: "A homebrew N64 pong game with support for 4 players.",
             categories: ['featured', 'games', 'others']
+        },
+        {
+            image: 'assets/images/github.png',
+            link: 'https://github.com/OpenRCT2/OpenRCT2',
+            title: 'OpenRCT2',
+            demo: false,
+            technologies: ['C++'],
+            description: "Contributions to OpenRCT2, an open-source re-implementation of RollerCoaster Tycoon 2.",
+            categories: ['featured', 'oss']
         },
         {
             image: 'assets/images/pure-fire.jpg',
@@ -62,7 +80,7 @@ let render_projects = (slug) => {
             demo: "https://port.leotte.dev/teletris/",
             technologies: ['Javascript', 'PixiJS', 'Telegram'],
             description: "A Telegram game inspired by falling blocks. Using pure javascript, <a href='https://pixijs.com/'>PixiJS</a>, full touch support and scores inside telegram chats.",
-            categories: ['featured', 'games']
+            categories: ['games']
         },
         {
             image: 'assets/images/oculus-toolkit.jpg',
@@ -80,15 +98,6 @@ let render_projects = (slug) => {
             demo: "https://chrome.google.com/webstore/detail/xboxunity-link/okpaoehinbobjokghdhcgghlgnnfnhlh",
             technologies: ['Javascript', 'Chrome Extension'],
             description: "A simple Chrome extension that shows LiNK stats in real-time.",
-            categories: ['others']
-        },
-        {
-            image: 'assets/images/botfather.jpg',
-            link: 'https://github.com/leoleotte/nintendo-group-bot',
-            title: 'Nintendo Brasil Telegram Group',
-            demo: false,
-            technologies: ['Python', 'Telegram'],
-            description: "Bot for a community telegram group.",
             categories: ['others']
         },
     ]
